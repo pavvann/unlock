@@ -19,6 +19,7 @@ const etherscan = {
     linea: 'S66J314Q7PICPB4RP2G117KDFQRBEUYIFX',
     polygonZkEVM: '8H4ZB9SQBMQ7WA1TCIXFQVCHTVX8DXTY9Y',
     scroll: 'BZEXNPN6KKKJQ8VIMNXZDZNEX7QQZWZQ3P',
+    soneium: 'empty',
   },
   // TODO : generate from networks package!
   customChains: [
@@ -28,6 +29,14 @@ const etherscan = {
       urls: {
         apiURL: 'https://api.celoscan.io/api',
         browserURL: 'https://celoscan.io/',
+      },
+    },
+    {
+      network: 'soneium',
+      chainId: 1868,
+      urls: {
+        apiURL: 'https://soneium.blockscout.com/api',
+        browserURL: 'https://soneium.blockscout.com',
       },
     },
     {
