@@ -18,7 +18,7 @@ export const soneium: NetworkConfig = {
   hooks: {
     onKeyPurchaseHook: [
       {
-        address: '',
+        address: '0xf1697aFB98fDE3B10C88FE6c33b442b154348820',
         id: HookType.PASSWORD,
         name: 'Password required',
       },
